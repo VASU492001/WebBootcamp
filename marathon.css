@@ -1,10 +1,11 @@
 * {
     margin: 6px;
     padding: 10px;
-    background-color: lightskyblue;
+    background-color: papayawhip;
 }
 
 div h1 {
+    border: 2px solid red;
     text-align: center;
     text-decoration: underline;
     font-weight: bolder;
@@ -16,6 +17,7 @@ div h1 {
 
 
 p {
+    border: 2px solid red;
     text-align: center;
     font-size: 45px;
     font-style: oblique;
@@ -27,6 +29,7 @@ p {
 
 
 button {
+    border: 2px solid red;
     color: black;
     border-radius: 11px;
     align-items: center;
@@ -35,4 +38,22 @@ button {
     font-size: 50px;
     border-color: black;
     position: absolute;
+}
+
+.d1 {
+
+    display: inline-block;
+    align-items: left;
+}
+
+.d2 {
+
+    display: inline-block;
+    align-items: center;
+}
+
+.d3 {
+
+    display: inline-block;
+    align-items: right;
 }
