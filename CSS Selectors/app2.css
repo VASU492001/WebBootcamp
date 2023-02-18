@@ -58,5 +58,5 @@ section.post {
 }
 
 a[href*="google"] {
-    color: blue;
+    color: magenta;
 }
