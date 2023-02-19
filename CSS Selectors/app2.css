@@ -18,7 +18,7 @@ h2 {
 
 #signup {
     background-color: #1d3557;
-    color: #a8dadc
+    color: #f1faee
 }
 
 span {
@@ -63,10 +63,7 @@ a[href*="google"] {
     color: magenta;
 }
 
-.post button:hover {
-    background-color: #e63946;
-    color: #f1faee;
-}
+
 
 .post a:hover {
     text-decoration: underline;
@@ -94,7 +91,16 @@ p::selection {
     background-color: #fcbf49;
 }
 
-h1,
-h2 {
-    color: red;
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+button:hover {
+    background-color: olive;
+
+}
+
+button {
+    background-color: magenta !important;
 }
