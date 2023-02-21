@@ -1,0 +1,27 @@
+img {
+    width: 25%;
+    margin: 50px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(24, 67, 110)
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#searchbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    display: inline;
+}
+
+input {
+    font-size: larger;
+}
+
+label {
+    font-size: larger;
+}
