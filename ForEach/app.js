@@ -1,7 +1,10 @@
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-function print(element) {
-    console.log(element)
-}
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+// numbers.map(function (num) {
+//     return num * 2;
+// })
+
+
 
 // numbers.forEach(function (el) {
 //     if (el % 2 === 0) {
@@ -33,7 +36,6 @@ const movies = [
         score: 90
     }
 ]
-
-movies.forEach(function (movie) {
-    console.log(`${movie.title} - ${movie.score}/100`)
+const titles = movies.map(function (movie) {
+    return movie.title.toUpperCase();
 })
