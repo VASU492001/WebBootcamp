@@ -1,6 +1,6 @@
 const form = document.querySelector("#shelterForm");
 const input = document.querySelector("#catName");
-const list = document.querySelector("#cats")
+const list = document.querySelector("#dogs")
 form.addEventListener("submit", function (e) {
     e.preventDefault();
     console.log(input.value);
