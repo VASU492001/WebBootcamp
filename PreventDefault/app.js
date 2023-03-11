@@ -1,3 +1,11 @@
+// const lis = document.querySelectorAll('li');
+// for (let li of lis) {
+//     li.addEventListener('click', function () {
+//         li.remove();
+//     })
+// }
+
+
 const tweetForm = document.querySelector("#tweetForm");
 const tweetsContainer = document.querySelector("#tweets")
 tweetForm.addEventListener('submit', function (e) {
@@ -24,3 +32,10 @@ const addTweet = (username, tweet) => {
     tweetsContainer.append(newTweet);
 
 }
+
+tweetsContainer.addEventListener('click', function () {
+    // e.target.nodeT
+    console.dir(e.target)
+    e.target.nodeName === 'LI' && e.target.remove();
+
+})
